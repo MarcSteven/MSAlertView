@@ -77,10 +77,9 @@
 		A60881BE237A337500728226 /* MSAlert */ = {
 			isa = PBXGroup;
 			children = (
+				A60881DC237A412400728226 /* Extension */,
 				A60881BF237A337500728226 /* MSAlert.h */,
 				A60881D6237A339700728226 /* MSAlertView.swift */,
-				A60881D8237A343300728226 /* UIView+CornerRadius.swift */,
-				A60881DA237A34C400728226 /* UIColor+Hex.swift */,
 				A60881C0237A337500728226 /* Info.plist */,
 			);
 			path = MSAlert;
@@ -93,6 +92,15 @@
 				A60881CC237A337500728226 /* Info.plist */,
 			);
 			path = MSAlertTests;
+			sourceTree = "<group>";
+		};
+		A60881DC237A412400728226 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A60881D8237A343300728226 /* UIView+CornerRadius.swift */,
+				A60881DA237A34C400728226 /* UIColor+Hex.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -125,7 +125,7 @@ public extension MSAlertView {
         let image = UIImage(named: "", in: Bundle(for: MSAlertView.self), with: nil)
         show(message: message, icon: image, duration: duration)
     }
-    #warning("TODO"):
+    #warning("TODO")
     static func showError(message:String,
                           duration:TimeInterval) {
         let image = UIImage(named: "", in: Bundle(for: MSAlertView.self), with: nil)
